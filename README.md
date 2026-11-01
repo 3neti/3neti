@@ -14,7 +14,7 @@ An operating system provides shared capabilities on which different applications
 
 A Pay Code represents an instruction. Behind it, x-change coordinates the work: validation, authorization, routing, execution, and evidence. Provider integrations connect to supported financial services; separate packages handle responsibilities such as instructions, claim workflows, treasury positions, and journals.
 
-The distinction matters: a Pay Code does not itself hold money or move it. Financial execution depends on the relevant authority, provider, and evidence.
+A Pay Code references a governed instruction. Financial execution follows the relevant authority, provider capabilities, and settlement evidence.
 
 [x-change](https://github.com/3neti/x-change) is a public beta. It is my attempt to make this idea practical for banks and other financial institutions that want to build and operate their own platforms.
 
